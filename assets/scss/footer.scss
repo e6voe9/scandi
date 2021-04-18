@@ -1,0 +1,16 @@
+.footer {
+	background: $pink-light;
+	&__inner {
+		padding: 36px 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__address {
+	}
+	&__phone {
+		margin-right: 40px;
+	}
+	&__name {
+	}
+}

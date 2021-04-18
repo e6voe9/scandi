@@ -1,0 +1,47 @@
+$main: #533738;
+$pink: #E2C4BA;;
+$brown: #8D7370;
+$pink-light: #F0E6E4;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+    outline: unset;
+}
+*::selection{
+    background: rgba(83, 55, 56, .4);
+}
+
+// :root{
+//     --dark:;
+//     --main:;
+// }
+
+button,
+input,
+a,
+ul,
+li,
+ol,
+address {
+    border: none;
+    color: inherit;
+    font-style: normal;
+    background-color: transparent;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+.container {
+    max-width: 1215px;
+    margin: 0 auto;
+}
+
+html{
+    font-size: 30px;
+    scroll-behavior: smooth;
+}

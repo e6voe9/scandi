@@ -1,0 +1,66 @@
+@media (max-width: 1199px){
+	.container {
+	  max-width: 980px;
+	}
+	.menu{
+		&__list{
+			display: none;
+			&--mob{
+				display: flex;
+				.menu__link{
+					font-size: 1.5rem;
+					&::after{
+						height: .8rem;
+						bottom: -0.5rem;
+					}
+				}
+				.phone{
+					font-size: 1.5rem;
+				}
+			}
+		}
+		
+	}
+	.about{
+		.container{
+			max-width: 980px;
+		}
+		&__img{
+			width: 400px;
+		}
+	}
+	.burger{
+		display: flex;
+	}
+	.reviews__slider-btn{
+		display: none;
+	}
+	.portfolio{
+		&__img{
+			height: 360px;
+		}
+		&__info{
+			height: 360px;
+		}
+	}
+	.team{
+		&__card-img{
+			height: 200px;
+		}
+		&__card{
+			width: 257px;
+		}
+		&__how-box{
+			flex-wrap: wrap;
+		}
+		&__how-item{
+			max-width: 45%;
+			margin-bottom: 40px;
+		}
+	}
+	.contact{
+		&__inner{
+			height: 550px;
+		}
+	}
+}
