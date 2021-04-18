@@ -45,3 +45,13 @@ let all_lazy =	function (){
 	}
 };
 window.addEventListener("scroll", all_lazy, {passive: true, once: true});
+
+function asyncJS(src) {
+    let js = document.createElement('script');
+    js.src = src;
+    js.setAttribute('defer', 'defer');
+    document.body.appendChild(js);
+}
+if (window.innerWidth > 920){
+	asyncJS('js/aos.js');
+}
