@@ -37,3 +37,11 @@ logo.addEventListener('click', function(){
 		menuMob.classList.remove('menu__list--open');
 	}
 },{passive: true})
+
+let all_lazy =	function (){
+	let loads = document.getElementsByClassName("lazy-item");
+	for(let i = 0; i < loads.length; ++i){
+		loads[i].setAttribute("src", loads[i].getAttribute("data-src"));
+	}
+};
+window.addEventListener("scroll", all_lazy, {passive: true, once: true});
